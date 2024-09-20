@@ -10,8 +10,9 @@ A Flutter app that allows users to pick an image from the gallery and compress i
 
 ## Screenshots
 
+
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/e5ee57f4-cede-4454-9923-2ad5ad84252c" width = "250"  height="500"/>
+  <img src="https://github.com/user-attachments/assets/40c30329-bd99-4af3-9739-0405cea6ba09" width = "250"  height="500"/>
   &nbsp;&nbsp;
   <img src="https://github.com/user-attachments/assets/b70ceec1-9052-42d3-9688-98e034a693f4" width = "250" height ="500"/>
 <!--   ![IMG_20240919_021121](https://github.com/user-attachments/assets/e5ee57f4-cede-4454-9923-2ad5ad84252c)
