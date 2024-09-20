@@ -20,6 +20,9 @@ A Flutter app that allows users to pick an image from the gallery and compress i
 
 </p>
 
+## Live Demo
+[APK file](https://github.com/ankitkurmi091/image_compress_app/blob/main/image_compress.apk "Apk File")
+
 ## Getting Started
 
 To run this project on your local machine:
@@ -80,3 +83,6 @@ Choose the device where you want to run the Flutter project, like an Android emu
 ### 7. Run the app:
 
     flutter run
+
+
+
