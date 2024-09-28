@@ -21,7 +21,7 @@ A Flutter app that allows users to pick an image from the gallery and compress i
 </p>
 
 ## Live Demo
-[APK file](https://github.com/ankitkurmi091/image_compress_app/raw/refs/heads/main/imageCompress.apk "Apk File")imageCompress.apk
+[APK file](https://github.com/ankitkurmi091/image_compress_app/raw/refs/heads/main/imageCompress.apk "Apk File")
 
 ## Getting Started
 
