@@ -12,7 +12,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
+ 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -44,6 +44,26 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blueGrey,
         title: Text(title),
+        actions: [
+          IconButton(onPressed: () async {
+           ImagePicker picker = ImagePicker();
+           XFile? file1 = await picker.pickImage(source: ImageSource.camera);
+           if(file1 != null) {
+             String? filePath = file1.path;
+             print('123 gama.    ............$filePath');
+             function_obj.function1(filePath);
+             Navigator.push(context, MaterialPageRoute(builder: (context) => SecondPage()));
+             print('file present................................ $filePath');
+
+           }
+           else{
+             print('null image ........');
+             Navigator.push(context, MaterialPageRoute(builder: (context) => MyHomePage(title: title)));
+           }
+
+
+          }, icon: Icon(Icons.add_a_photo_outlined))
+        ],
       ),
       body: Center(
         child: Container(
